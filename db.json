@@ -1,0 +1,403 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Samsung",
+      "name": "Samsung galaxy s24",
+      "price": 400,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/01/galaxy-s24-plus-cobalt-violet-square.jpg",
+      "quantity": 1,
+      "description": "Samsung Galaxy S24 — это флагманский смартфон с ярким AMOLED-дисплеем и мощным процессором. Он обеспечивает плавную работу и отличную производительность. Камера с ИИ делает качественные снимки даже при плохом освещении. Отличный выбор для тех, кто ценит технологии и стиль."
+    },
+    {
+      "id": 2,
+      "brand": "Iphone",
+      "name": "Iphone 16 pro",
+      "price": 450,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://tse1.mm.bing.net/th/id/OIP.32Q9UDoeuBYUSy5ozoJsbwHaJC?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "iPhone 16 Pro — это новейшая модель от Apple с усовершенствованной камерой и высокой производительностью. Экран с ProMotion обеспечивает плавную прокрутку и невероятную четкость. Батарея держит дольше, чем у предыдущих моделей. Идеально подойдёт для тех, кто хочет максимум от телефона."
+    },
+    {
+      "id": 3,
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14 Ultra",
+      "price": 350,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg",
+      "quantity": 1,
+      "description": "Xiaomi 14 Ultra предлагает впечатляющее соотношение цены и качества. Смартфон оснащён мощным процессором Snapdragon и быстрой зарядкой. Основная камера с несколькими объективами делает чёткие и насыщенные фото. Это идеальный выбор для тех, кто ищет флагман по доступной цене."
+    },
+    {
+      "id": 4,
+      "brand": "Google",
+      "name": "Pixel 8 Pro",
+      "price": 500,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Google Pixel 8 Pro славится своей камерой с поддержкой машинного обучения от Google. Он отлично подходит для фото- и видеосъёмки. Чистый Android и долгосрочные обновления делают его идеальным для поклонников Google. Батарея работает целый день без подзарядки."
+    },
+    {
+      "id": 5,
+      "brand": "OnePlus",
+      "name": "OnePlus 12",
+      "price": 430,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "quantity": 1,
+      "description": "OnePlus 12 предлагает быструю зарядку, высокую производительность и современный дизайн. Экран AMOLED с частотой 120 Гц выглядит потрясающе. OxygenOS остаётся лёгкой и плавной оболочкой. Это устройство отлично подойдёт как для работы, так и для развлечений."
+    },
+    {
+      "id": 6,
+      "brand": "Samsung",
+      "name": "Samsung Galaxy Z Fold 5",
+      "price": 1000,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://tse3.mm.bing.net/th/id/OIP.QSYPr7reuLSRiup0QV4VmAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Galaxy Z Fold 5 — это революционный складной смартфон, сочетающий в себе функции планшета. Устройство поддерживает многозадачность и работу с S Pen. Подходит для тех, кто хочет новое поколение мобильных устройств. Идеален для бизнеса и творчества."
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "name": "iPhone 15",
+      "price": 600,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
+      "quantity": 1,
+      "description": "iPhone 15 получил улучшенный чип и новую камеру с ночным режимом. Корпус выполнен из переработанных материалов. Экран яркий, с отличной цветопередачей. Это надёжный и стильный смартфон для повседневного использования."
+    },
+    {
+      "id": 8,
+      "brand": "Asus",
+      "name": "Asus ROG Phone 8 Pro",
+      "price": 800,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Asus ROG Phone 8 Pro — лучший выбор для мобильных геймеров. Он оснащён системой охлаждения и мощной батареей. Экран с частотой обновления 165 Гц обеспечит плавную графику. Отличный звук и кастомизация делают его флагманом среди игровых смартфонов."
+    },
+    {
+      "id": 9,
+      "brand": "Apple",
+      "name": "MacBook Pro 16 M3",
+      "price": 2200,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=892&hei=820&fmt=jpeg&qlt=90&.v=1697311054290",
+      "quantity": 1,
+      "description": "MacBook Pro 16 M3 — мощный ноутбук для профессионалов. Новый чип M3 обеспечивает высокую производительность и энергоэффективность. Дисплей Liquid Retina XDR выглядит просто великолепно. Идеально подойдёт для разработчиков, дизайнеров и видеомонтажёров."
+    },
+    {
+      "id": 10,
+      "brand": "samsung",
+      "name": "samsung S22E3",
+      "price": 1500,
+      "category": "monitor",
+      "rating": 4,
+      "img": "https://image.made-in-china.com/2f0j00LsHqNZGWbtcp/15-17-18-5-19-21-5-22-23-23-6-24-27inch-PC-Monitor-Desktop-Computer-LED-LCD-Monitors-for-Business-Educational-Office-Gaming-Computer-Monitor-OEM-ODM.jpg",
+      "quantity": 1,
+      "description": "Samsung S22E3 — это надёжный и качественный монитор для повседневной работы. Он предлагает чёткое изображение и широкий угол обзора. Отлично подходит как для офиса, так и для домашнего использования. Эргономичный дизайн и лёгкая настройка."
+    },
+    {
+      "id": 11,
+      "brand": "Asus",
+      "name": "Asus Zenbook 14 OLED",
+      "price": 1200,
+      "category": "laptop",
+      "rating": 4,
+      "img": "https://tse1.mm.bing.net/th/id/OIP.u0xsUjmwIxx6O-DAfdna9wHaHa?r=0&w=2048&h=2048&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Asus Zenbook 14 OLED — лёгкий и стильный ноутбук с потрясающим OLED-дисплеем. Он оснащён мощным процессором и быстрой памятью. Отлично подойдёт для учёбы, работы и путешествий. Батареи хватает на целый день активного использования."
+    },
+    {
+      "id": 12,
+      "brand": "Lenovo",
+      "name": "Lenovo Legion 5 Pro",
+      "price": 1600,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://tse1.mm.bing.net/th/id/OIF.WUm16ev3nPfXSNjJkqi81Q?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Lenovo Legion 5 Pro — игровой ноутбук с высоким уровнем производительности. Он имеет качественный дисплей и отличное охлаждение. Подходит как для игр, так и для тяжёлых задач. Удобная клавиатура и современный дизайн дополняют его плюсы."
+    },
+    {
+      "id": 13,
+      "brand": "Apple",
+      "name": "MacBook Air M2",
+      "price": 1000,
+      "category": "laptop",
+      "rating": 4,
+      "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-midnight-config-20220606?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1654122890064",
+      "quantity": 1,
+      "description": "MacBook Air M2 — лёгкий и мощный ноутбук с новым чипом от Apple. Он отлично подойдёт для работы, учёбы и развлечений. Тихая работа и высокая автономность. Стильный и компактный дизайн делает его идеальным спутником на каждый день."
+    },
+    {
+      "id": 14,
+      "brand": "Realme",
+      "name": "Realme GT 6",
+      "price": 300,
+      "category": "phone",
+      "rating": 3,
+      "img": "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt6-1.jpg",
+      "quantity": 1,
+      "description": "Realme GT 6 — доступный смартфон с хорошей производительностью. Он оснащён AMOLED-дисплеем и мощным аккумулятором. Камера делает достойные снимки днём и ночью. Отличный вариант для повседневных задач и развлечений."
+    },
+    {
+      "id": 15,
+      "brand": "Dell",
+      "name": "Dell S25 Pro",
+      "price": 2000,
+      "category": "monitor",
+      "rating": 4,
+      "img": "https://promotions.newegg.com/visnav/Monitors/20180426/Professional-Monitors.jpg",
+      "quantity": 1,
+      "description": "Dell S25 Pro — профессиональный монитор с высоким разрешением и точной цветопередачей. Подходит для дизайнеров, фотографов и видеомонтажёров. Удобная настройка положения и подключения. Качество сборки и материалов на высоте."
+    },
+    {
+      "id": 16,
+      "brand": "Motorola",
+      "name": "Motorola Edge 50 Pro",
+      "price": 320,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://tse4.mm.bing.net/th/id/OIP.Yw7BbTl2xBcDVKGAA5heHAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Motorola Edge 50 Pro — стильный смартфон с AMOLED-дисплеем и 125 Вт быстрой зарядкой. Отличается плавной работой и хорошей автономностью. Идеален для повседневных задач и мультимедиа."
+    },
+    {
+      "id": 17,
+      "brand": "Sony",
+      "name": "Sony Xperia 1 VI",
+      "price": 950,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-vi-1.jpg",
+      "quantity": 1,
+      "description": "Sony Xperia 1 VI — премиальный смартфон с 4K дисплеем и передовыми фотовозможностями. Подходит для профессиональных фотографов и любителей качественного контента."
+    },
+    {
+      "id": 18,
+      "brand": "Nothing",
+      "name": "Nothing Phone 2a",
+      "price": 400,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-2a-1.jpg",
+      "quantity": 1,
+      "description": "Nothing Phone 2a — необычный смартфон с прозрачной задней крышкой и хорошим железом. Бренд делает акцент на дизайне и чистом Android. Отличный вариант для ценителей оригинальности."
+    },
+    {
+      "id": 19,
+      "brand": "HP",
+      "name": "HP Spectre x360 14",
+      "price": 1400,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91FnJkgi-hL._AC_SL1500_.jpg",
+      "quantity": 1,
+      "description": "HP Spectre x360 14 — трансформируемый ноутбук с сенсорным OLED-дисплеем. Отличается стильным дизайном, мощной начинкой и длительным временем работы от батареи. Идеален для тех, кто работает в движении."
+    },
+    {
+      "id": 20,
+      "brand": "MSI",
+      "name": "MSI Stealth 16 Studio",
+      "price": 1800,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://www.notebookcheck.net/uploads/tx_nbc2/MSI_Stealth_16_AI_Studio__1_.jpg",
+      "quantity": 1,
+      "description": "MSI Stealth 16 Studio — мощный ноутбук для геймеров и создателей контента. Оснащён видеокартой RTX и продвинутой системой охлаждения. Отличный выбор для работы и игр."
+    },
+    {
+      "id": 21,
+      "brand": "Acer",
+      "name": "Acer Swift Go 14",
+      "price": 950,
+      "category": "laptop",
+      "rating": 4,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.VYj9m_83UMD3nis6Ko3OSwHaFX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Acer Swift Go 14 — лёгкий ноутбук с OLED-дисплеем и процессором Intel Core Ultra. Отлично подойдёт для студентов, фрилансеров и путешественников. Батареи хватает на весь день."
+    },
+    {
+      "id": 22,
+      "brand": "Gigabyte",
+      "name": "Gigabyte M32U",
+      "price": 800,
+      "category": "monitor",
+      "rating": 4,
+      "img": "https://tse4.mm.bing.net/th/id/OIP.JLAkUSrEzvpZmnm49eciyAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Gigabyte M32U — игровой 4K-монитор с высокой частотой обновления и HDR. Отличный выбор для геймеров и энтузиастов. Поддержка FreeSync и DisplayHDR 400."
+    }
+  ],
+  "carts": [
+    {
+      "id": 19,
+      "brand": "HP",
+      "name": "HP Spectre x360 14",
+      "price": 1400,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91FnJkgi-hL._AC_SL1500_.jpg",
+      "quantity": 1,
+      "description": "HP Spectre x360 14 — трансформируемый ноутбук с сенсорным OLED-дисплеем. Отличается стильным дизайном, мощной начинкой и длительным временем работы от батареи. Идеален для тех, кто работает в движении."
+    },
+    {
+      "id": 4,
+      "brand": "Google",
+      "name": "Pixel 8 Pro",
+      "price": 500,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Google Pixel 8 Pro славится своей камерой с поддержкой машинного обучения от Google. Он отлично подходит для фото- и видеосъёмки. Чистый Android и долгосрочные обновления делают его идеальным для поклонников Google. Батарея работает целый день без подзарядки."
+    },
+    {
+      "id": 3,
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14 Ultra",
+      "price": 350,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg",
+      "quantity": 1,
+      "description": "Xiaomi 14 Ultra предлагает впечатляющее соотношение цены и качества. Смартфон оснащён мощным процессором Snapdragon и быстрой зарядкой. Основная камера с несколькими объективами делает чёткие и насыщенные фото. Это идеальный выбор для тех, кто ищет флагман по доступной цене."
+    }
+  ],
+  "favourites": [
+    {
+      "id": 17,
+      "brand": "Sony",
+      "name": "Sony Xperia 1 VI",
+      "price": 950,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-vi-1.jpg",
+      "quantity": 1,
+      "description": "Sony Xperia 1 VI — премиальный смартфон с 4K дисплеем и передовыми фотовозможностями. Подходит для профессиональных фотографов и любителей качественного контента."
+    },
+    {
+      "id": 4,
+      "brand": "Google",
+      "name": "Pixel 8 Pro",
+      "price": 500,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Google Pixel 8 Pro славится своей камерой с поддержкой машинного обучения от Google. Он отлично подходит для фото- и видеосъёмки. Чистый Android и долгосрочные обновления делают его идеальным для поклонников Google. Батарея работает целый день без подзарядки."
+    },
+    {
+      "id": 2,
+      "brand": "Iphone",
+      "name": "Iphone 16 pro",
+      "price": 450,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://tse1.mm.bing.net/th/id/OIP.32Q9UDoeuBYUSy5ozoJsbwHaJC?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "iPhone 16 Pro — это новейшая модель от Apple с усовершенствованной камерой и высокой производительностью. Экран с ProMotion обеспечивает плавную прокрутку и невероятную четкость. Батарея держит дольше, чем у предыдущих моделей. Идеально подойдёт для тех, кто хочет максимум от телефона."
+    },
+    {
+      "id": 20,
+      "brand": "MSI",
+      "name": "MSI Stealth 16 Studio",
+      "price": 1800,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://www.notebookcheck.net/uploads/tx_nbc2/MSI_Stealth_16_AI_Studio__1_.jpg",
+      "quantity": 1,
+      "description": "MSI Stealth 16 Studio — мощный ноутбук для геймеров и создателей контента. Оснащён видеокартой RTX и продвинутой системой охлаждения. Отличный выбор для работы и игр."
+    },
+    {
+      "id": 10,
+      "brand": "samsung",
+      "name": "samsung S22E3",
+      "price": 1500,
+      "category": "monitor",
+      "rating": 4,
+      "img": "https://image.made-in-china.com/2f0j00LsHqNZGWbtcp/15-17-18-5-19-21-5-22-23-23-6-24-27inch-PC-Monitor-Desktop-Computer-LED-LCD-Monitors-for-Business-Educational-Office-Gaming-Computer-Monitor-OEM-ODM.jpg",
+      "quantity": 1,
+      "description": "Samsung S22E3 — это надёжный и качественный монитор для повседневной работы. Он предлагает чёткое изображение и широкий угол обзора. Отлично подходит как для офиса, так и для домашнего использования. Эргономичный дизайн и лёгкая настройка."
+    }
+  ],
+  "comments": [
+    {
+      "userName": "asas",
+      "message": "sasa",
+      "productId": 4,
+      "date": "7/26/2025, 11:47:06 PM",
+      "id": 1
+    },
+    {
+      "userName": "asdsad",
+      "message": "sa",
+      "productId": 4,
+      "date": "7/26/2025, 11:48:19 PM",
+      "id": 2
+    },
+    {
+      "userName": "dad",
+      "message": "dasd",
+      "productId": 4,
+      "date": "7/26/2025, 11:49:51 PM",
+      "id": 3
+    },
+    {
+      "userName": "adas",
+      "message": "wdqw4",
+      "productId": 1,
+      "date": "7/26/2025, 11:51:04 PM",
+      "id": 4
+    },
+    {
+      "userName": "asa",
+      "message": "100",
+      "productId": 2,
+      "date": "7/26/2025, 11:58:36 PM",
+      "id": 5
+    },
+    {
+      "userName": "sergey",
+      "message": "lorem asasdasdasdwdcwdcwdcvwv3w8456120",
+      "productId": 2,
+      "date": "7/27/2025, 12:04:07 AM",
+      "id": 6
+    },
+    {
+      "userName": "dcwccwc",
+      "message": "wcd",
+      "productId": 2,
+      "date": "7/27/2025, 12:10:37 AM",
+      "id": 7
+    },
+    {
+      "userName": "wcwcwcw",
+      "message": "wcwdcwc",
+      "productId": 2,
+      "date": "7/27/2025, 12:10:45 AM",
+      "id": 8
+    },
+    {
+      "userName": "sego",
+      "message": "216654655",
+      "productId": 1,
+      "date": "7/27/2025, 9:46:33 AM",
+      "id": 9
+    }
+  ]
+}

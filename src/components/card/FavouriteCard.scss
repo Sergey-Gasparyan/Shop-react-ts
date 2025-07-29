@@ -1,0 +1,38 @@
+.card {
+  box-shadow: 3px 3px 3px 3px gray;
+  margin: 25px;
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+
+  & div {
+    margin-top: 10px;
+  }
+
+  &-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    &.favourite {
+      justify-content:flex-start
+    }
+  }
+
+  &_description {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-icon {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 15px gray;
+  }
+}
