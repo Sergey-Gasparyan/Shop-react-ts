@@ -1,21 +1,38 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { IProduct } from "../../types/types";
 
-const initialState = {
+interface IProductsState extends IProduct {
+  comments: [];
+  category: string;
+  description: string;
+  rating: number;
+  quantity: number;
+}
+
+interface IState {
+  products: IProductsState[];
+  productsLoading: boolean;
+  productsError: string;
+  total : number
+}
+
+const initialState: IState = {
   products: [],
-  comments: [],
   productsLoading: false,
   productsError: "",
+  total : 0
 };
 
-export const fetchProducts = createAsyncThunk(
+export const fetchProducts = createAsyncThunk<{data : IProductsState[] ,total : number}, string>(
   "products/fetchProducts",
   async (params) => {
     const url = `http://localhost:5000/products?${params}`;
     const response = await fetch(url);
-    return await response.json();
+    const data =  await response.json();
+    const total = Number(response.headers.get("X-Total-Count"));
+    return {data,total}
   }
 );
-
 
 
 const productsSlice = createSlice({
@@ -29,14 +46,15 @@ const productsSlice = createSlice({
       })
       .addCase(fetchProducts.fulfilled, (state, action) => {
         state.productsLoading = false;
-        state.products = action.payload;
+        state.products = action.payload.data
+        state.total = action.payload.total
         state.productsError = "";
       })
       .addCase(fetchProducts.rejected, (state, action) => {
         state.productsLoading = false;
-        state.productsError = action.payload;
+        state.productsError = action.error.message || 'error';
         state.products = [];
-      });
+      })
   },
 });
 

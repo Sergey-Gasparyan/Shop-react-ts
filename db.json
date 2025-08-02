@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "brand": "Iphone",
+      "brand": "Apple",
       "name": "Iphone 16 pro",
       "price": 450,
       "category": "phone",
@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "brand": "samsung",
+      "brand": "Samsung",
       "name": "samsung S22E3",
       "price": 1500,
       "category": "monitor",
@@ -241,6 +241,17 @@
       "img": "https://tse4.mm.bing.net/th/id/OIP.JLAkUSrEzvpZmnm49eciyAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       "quantity": 1,
       "description": "Gigabyte M32U — игровой 4K-монитор с высокой частотой обновления и HDR. Отличный выбор для геймеров и энтузиастов. Поддержка FreeSync и DisplayHDR 400."
+    },
+    {
+      "brand": "segoibrand",
+      "name": "cececce",
+      "description": "tvrt",
+      "price": "200",
+      "img": "123",
+      "category": "monitor",
+      "rating": 3,
+      "quantity": 1,
+      "id": 23
     }
   ],
   "carts": [
@@ -276,6 +287,72 @@
       "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg",
       "quantity": 1,
       "description": "Xiaomi 14 Ultra предлагает впечатляющее соотношение цены и качества. Смартфон оснащён мощным процессором Snapdragon и быстрой зарядкой. Основная камера с несколькими объективами делает чёткие и насыщенные фото. Это идеальный выбор для тех, кто ищет флагман по доступной цене."
+    },
+    {
+      "id": 6,
+      "brand": "Samsung",
+      "name": "Samsung Galaxy Z Fold 5",
+      "price": 1000,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://tse3.mm.bing.net/th/id/OIP.QSYPr7reuLSRiup0QV4VmAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "quantity": 1,
+      "description": "Galaxy Z Fold 5 — это революционный складной смартфон, сочетающий в себе функции планшета. Устройство поддерживает многозадачность и работу с S Pen. Подходит для тех, кто хочет новое поколение мобильных устройств. Идеален для бизнеса и творчества."
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "name": "iPhone 15",
+      "price": 600,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
+      "quantity": 1,
+      "description": "iPhone 15 получил улучшенный чип и новую камеру с ночным режимом. Корпус выполнен из переработанных материалов. Экран яркий, с отличной цветопередачей. Это надёжный и стильный смартфон для повседневного использования."
+    },
+    {
+      "id": 8,
+      "brand": "Asus",
+      "name": "Asus ROG Phone 8 Pro",
+      "price": 800,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Asus ROG Phone 8 Pro — лучший выбор для мобильных геймеров. Он оснащён системой охлаждения и мощной батареей. Экран с частотой обновления 165 Гц обеспечит плавную графику. Отличный звук и кастомизация делают его флагманом среди игровых смартфонов."
+    },
+    {
+      "id": 9,
+      "brand": "Apple",
+      "name": "MacBook Pro 16 M3",
+      "price": 2200,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=892&hei=820&fmt=jpeg&qlt=90&.v=1697311054290",
+      "quantity": 1,
+      "description": "MacBook Pro 16 M3 — мощный ноутбук для профессионалов. Новый чип M3 обеспечивает высокую производительность и энергоэффективность. Дисплей Liquid Retina XDR выглядит просто великолепно. Идеально подойдёт для разработчиков, дизайнеров и видеомонтажёров."
+    },
+    {
+      "id": 5,
+      "brand": "OnePlus",
+      "name": "OnePlus 12",
+      "price": 430,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "quantity": 1,
+      "description": "OnePlus 12 предлагает быструю зарядку, высокую производительность и современный дизайн. Экран AMOLED с частотой 120 Гц выглядит потрясающе. OxygenOS остаётся лёгкой и плавной оболочкой. Это устройство отлично подойдёт как для работы, так и для развлечений."
+    },
+    {
+      "id": 10,
+      "brand": "Samsung",
+      "name": "samsung S22E3",
+      "price": 1500,
+      "category": "monitor",
+      "rating": 4,
+      "img": "https://image.made-in-china.com/2f0j00LsHqNZGWbtcp/15-17-18-5-19-21-5-22-23-23-6-24-27inch-PC-Monitor-Desktop-Computer-LED-LCD-Monitors-for-Business-Educational-Office-Gaming-Computer-Monitor-OEM-ODM.jpg",
+      "quantity": 1,
+      "description": "Samsung S22E3 — это надёжный и качественный монитор для повседневной работы. Он предлагает чёткое изображение и широкий угол обзора. Отлично подходит как для офиса, так и для домашнего использования. Эргономичный дизайн и лёгкая настройка."
     }
   ],
   "favourites": [
@@ -302,17 +379,6 @@
       "description": "Google Pixel 8 Pro славится своей камерой с поддержкой машинного обучения от Google. Он отлично подходит для фото- и видеосъёмки. Чистый Android и долгосрочные обновления делают его идеальным для поклонников Google. Батарея работает целый день без подзарядки."
     },
     {
-      "id": 2,
-      "brand": "Iphone",
-      "name": "Iphone 16 pro",
-      "price": 450,
-      "category": "phone",
-      "rating": 4,
-      "img": "https://tse1.mm.bing.net/th/id/OIP.32Q9UDoeuBYUSy5ozoJsbwHaJC?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "quantity": 1,
-      "description": "iPhone 16 Pro — это новейшая модель от Apple с усовершенствованной камерой и высокой производительностью. Экран с ProMotion обеспечивает плавную прокрутку и невероятную четкость. Батарея держит дольше, чем у предыдущих моделей. Идеально подойдёт для тех, кто хочет максимум от телефона."
-    },
-    {
       "id": 20,
       "brand": "MSI",
       "name": "MSI Stealth 16 Studio",
@@ -325,7 +391,7 @@
     },
     {
       "id": 10,
-      "brand": "samsung",
+      "brand": "Samsung",
       "name": "samsung S22E3",
       "price": 1500,
       "category": "monitor",
@@ -333,6 +399,61 @@
       "img": "https://image.made-in-china.com/2f0j00LsHqNZGWbtcp/15-17-18-5-19-21-5-22-23-23-6-24-27inch-PC-Monitor-Desktop-Computer-LED-LCD-Monitors-for-Business-Educational-Office-Gaming-Computer-Monitor-OEM-ODM.jpg",
       "quantity": 1,
       "description": "Samsung S22E3 — это надёжный и качественный монитор для повседневной работы. Он предлагает чёткое изображение и широкий угол обзора. Отлично подходит как для офиса, так и для домашнего использования. Эргономичный дизайн и лёгкая настройка."
+    },
+    {
+      "id": 3,
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14 Ultra",
+      "price": 350,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg",
+      "quantity": 1,
+      "description": "Xiaomi 14 Ultra предлагает впечатляющее соотношение цены и качества. Смартфон оснащён мощным процессором Snapdragon и быстрой зарядкой. Основная камера с несколькими объективами делает чёткие и насыщенные фото. Это идеальный выбор для тех, кто ищет флагман по доступной цене."
+    },
+    {
+      "id": 5,
+      "brand": "OnePlus",
+      "name": "OnePlus 12",
+      "price": 430,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "quantity": 1,
+      "description": "OnePlus 12 предлагает быструю зарядку, высокую производительность и современный дизайн. Экран AMOLED с частотой 120 Гц выглядит потрясающе. OxygenOS остаётся лёгкой и плавной оболочкой. Это устройство отлично подойдёт как для работы, так и для развлечений."
+    },
+    {
+      "id": 9,
+      "brand": "Apple",
+      "name": "MacBook Pro 16 M3",
+      "price": 2200,
+      "category": "laptop",
+      "rating": 5,
+      "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=892&hei=820&fmt=jpeg&qlt=90&.v=1697311054290",
+      "quantity": 1,
+      "description": "MacBook Pro 16 M3 — мощный ноутбук для профессионалов. Новый чип M3 обеспечивает высокую производительность и энергоэффективность. Дисплей Liquid Retina XDR выглядит просто великолепно. Идеально подойдёт для разработчиков, дизайнеров и видеомонтажёров."
+    },
+    {
+      "id": 8,
+      "brand": "Asus",
+      "name": "Asus ROG Phone 8 Pro",
+      "price": 800,
+      "category": "phone",
+      "rating": 5,
+      "img": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-pro-1.jpg",
+      "quantity": 1,
+      "description": "Asus ROG Phone 8 Pro — лучший выбор для мобильных геймеров. Он оснащён системой охлаждения и мощной батареей. Экран с частотой обновления 165 Гц обеспечит плавную графику. Отличный звук и кастомизация делают его флагманом среди игровых смартфонов."
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "name": "iPhone 15",
+      "price": 600,
+      "category": "phone",
+      "rating": 4,
+      "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
+      "quantity": 1,
+      "description": "iPhone 15 получил улучшенный чип и новую камеру с ночным режимом. Корпус выполнен из переработанных материалов. Экран яркий, с отличной цветопередачей. Это надёжный и стильный смартфон для повседневного использования."
     }
   ],
   "comments": [
@@ -398,6 +519,78 @@
       "productId": 1,
       "date": "7/27/2025, 9:46:33 AM",
       "id": 9
+    },
+    {
+      "userName": "sego",
+      "message": "11111",
+      "productId": 2,
+      "date": "7/31/2025, 12:06:14 AM",
+      "id": 10
+    },
+    {
+      "userName": "sego",
+      "message": "2222",
+      "productId": 1,
+      "date": "7/31/2025, 12:06:28 AM",
+      "id": 11
+    },
+    {
+      "userName": "SAA",
+      "message": "102",
+      "productId": 2,
+      "date": "8/2/2025, 1:31:26 PM",
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "date": "8/2/2025, 1:31:29 PM",
+      "id": 13
+    },
+    {
+      "userName": "102",
+      "message": "202",
+      "productId": 2,
+      "date": "8/2/2025, 1:32:08 PM",
+      "id": 14
+    },
+    {
+      "userName": "FFWEFW",
+      "message": "3434F",
+      "productId": 2,
+      "date": "8/2/2025, 1:32:30 PM",
+      "id": 15
+    },
+    {
+      "userName": "99999999999",
+      "message": "88888888888888",
+      "productId": 2,
+      "date": "8/2/2025, 1:51:46 PM",
+      "id": 16
     }
+  ],
+  "users": [
+    {
+      "login": "adddddddddddddddddddd",
+      "password": "eeeeeeeeeeeeeeeeeeeeeeee",
+      "id": 1
+    },
+    {
+      "login": "werdwedw",
+      "password": "dwedwd",
+      "name": "dwdwedw",
+      "phone": "dwedwed",
+      "id": 2
+    },
+    {
+      "login": "sego123",
+      "password": "sego0707",
+      "name": "sergey",
+      "phone": "chemasi",
+      "id": 3
+    }
+  ],
+  "brands": [
+    "Samsung",
+    "Apple"
   ]
 }

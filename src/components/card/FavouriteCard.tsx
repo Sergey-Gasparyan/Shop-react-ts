@@ -3,17 +3,20 @@ import "./FavouriteCard.scss";
 import ToFavouriteButton from "../icons/ToFavouriteButton";
 import ToCartButton from "../icons/ToCartButton";
 import React from "react";
+import { IProduct } from "../../types/types";
 
-export const FavouriteCard = React.memo(({ product }) => {
 
+interface ICartProps {
+  product: IProduct;
+  favouriteIds? : number[]
+  cartIds? : number[]
+}
+
+export const FavouriteCard: React.FC<ICartProps> = React.memo(({ product }) => {
   return (
     <div className="card">
       <Link to={`/product/${product.id}`}>
-        <img
-          src={product.img}
-          alt={product.name}
-          style={{ width: "250px", height: "280px" }}
-        />
+        <img src={product.img} alt={product.name} />
       </Link>
       <div className="card_description">
         <Link to={`/product/${product.id}`}>
@@ -30,4 +33,4 @@ export const FavouriteCard = React.memo(({ product }) => {
       </div>
     </div>
   );
-})
+});

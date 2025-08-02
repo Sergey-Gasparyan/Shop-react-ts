@@ -1,8 +1,17 @@
-import {useSelector } from "react-redux";
+import { useEffect } from "react";
 import CartItem from "../components/cardItem/CartItem";
+import { useAppDispatch, useAppSelector } from "../redux/reduxHooks";
+import { fetchCarts } from "../redux/slices/cartSlice";
 
-const CartPage = () => {
-  const cartsProduct = useSelector((store) => store.carts.carts);
+const CartPage= () => {
+  const cartsProduct = useAppSelector((store) => store.carts.carts);
+
+  const dispatch = useAppDispatch()
+
+  useEffect(() => {
+    dispatch(fetchCarts())
+  },[])
+  
   const totalPrice = cartsProduct.reduce(
     (acc, el) => acc + el.quantity * el.price,
     0
@@ -11,7 +20,7 @@ const CartPage = () => {
 
   if (cartsProduct.length === 0) {
     return (
-      <h1 style={{ fontSize: "30px", textAlign: "center", marginTop: "20px" }}>
+      <h1 className="empty">
         You Havn't Carts :(
       </h1>
     );

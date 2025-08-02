@@ -1,20 +1,36 @@
 .product_PageBlock {
-    margin: 20px;
-    box-shadow: 3px 3px 3px 3px gray;
-    padding: 30px;
-    display: flex;
+  margin: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+  padding: 30px;
+  display: flex;
+
+  img {
+    width: 400px;
+    height: auto ;
+  }
 }
 .product_page_content {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 25px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 25px;
+
+  p {
+    font-size: 30px;
+    margin-top: 50px;
+  }
 }
 .icons {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 .icons div {
-    margin-right: 50px;
+  margin-right: 50px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
 }

@@ -1,12 +1,21 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { IProduct } from "../../types/types";
+import { AppDispatch } from "../store";
 
-const initialState = {
+
+interface IInitialState {
+  carts : IProduct[]
+  cartsLoading : boolean
+  cartsError : string
+}
+
+const initialState:IInitialState = {
   carts: [],
   cartsLoading: false,
   cartsError: "",
 };
 
-export const fetchCarts = createAsyncThunk(
+export const fetchCarts = createAsyncThunk<IProduct[],void>(
   "carts/fetchFavourites",
   async () => {
     const response = await fetch("http://localhost:5000/carts");
@@ -14,8 +23,8 @@ export const fetchCarts = createAsyncThunk(
   }
 );
 
-export const updateCarts = createAsyncThunk(
-  "favourites/updateCarts",
+export const updateCarts = createAsyncThunk<void,IProduct,{dispatch : AppDispatch}>(
+  "carts/updateCarts",
   async (updatedProduct, { dispatch }) => {
     await fetch(`http://localhost:5000/carts/${updatedProduct.id}`, {
       method: "PUT",
@@ -28,8 +37,8 @@ export const updateCarts = createAsyncThunk(
 );
 
 
-export const addToCarts = createAsyncThunk(
-  "favourites/addToCarts",
+export const addToCarts = createAsyncThunk<void,IProduct,{dispatch : AppDispatch}>(
+  "carts/addToCarts",
   async (product, { dispatch }) => {
     await fetch("http://localhost:5000/carts", {
       method: "POST",
@@ -41,8 +50,8 @@ export const addToCarts = createAsyncThunk(
   }
 );
 
-export const deleteCart = createAsyncThunk(
-  "favourites/deleteCart",
+export const deleteCart = createAsyncThunk<void,string,{dispatch : AppDispatch}>(
+  "carts/deleteCart",
   async (id, { dispatch }) => {
     await fetch(`http://localhost:5000/carts/${id}`, {
       method: "DELETE",
@@ -68,7 +77,7 @@ const cartsSlice = createSlice({
       })
       .addCase(fetchCarts.rejected, (state, action) => {
         state.cartsLoading = false;
-        state.cartsError = action.payload;
+        state.cartsError = action.error.message || "Failed to fetch carts"
         state.carts = [];
       });
   },

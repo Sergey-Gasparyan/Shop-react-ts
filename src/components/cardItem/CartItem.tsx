@@ -1,12 +1,17 @@
-import { useDispatch } from "react-redux";
 import { deleteCart, updateCarts } from "../../redux/slices/cartSlice";
 import "./CartItem.scss";
 import { DeleteOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
+import { IProduct } from "../../types/types";
+import { useAppDispatch } from "../../redux/reduxHooks";
 
-const CartItem = ({ product}) => {
-  const dispatch = useDispatch();
+interface ICartItemProps {
+  product : IProduct
+}
+
+const CartItem:React.FC<ICartItemProps> = ({ product }) => {
+  const dispatch = useAppDispatch();
 
   function handleChangePlusQuantity() {
     const newProduct = {
@@ -30,7 +35,6 @@ const CartItem = ({ product}) => {
         <img
           src={product.img}
           alt={product.name}
-          style={{ width: "150px", height: "auto" }}
         />
       </Link>
       <Link to={`/product/${product.id}`}>
@@ -54,7 +58,7 @@ const CartItem = ({ product}) => {
           Price : {product.price * product.quantity}$
         </h3>
         <Button
-          onClick={() => dispatch(deleteCart(product.id))}
+          onClick={() => dispatch(deleteCart(String(product.id)))}
           style={{ fontSize: "22px" }}
           icon={<DeleteOutlined style={{ fontSize: "25px" }} />}
           danger
